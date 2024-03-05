@@ -1,0 +1,19 @@
+.footer {
+  @apply h-24 text-main-color p-3;
+
+  .container {
+    @apply h-full flex flex-col items-center justify-between md:flex-row;
+  }
+
+  &__logo {
+    @apply h-1/4 block md:h-4/5;
+
+    img {
+      @apply h-full;
+    }
+  }
+
+  &__contacts > a {
+    @apply h-auto;
+  }
+}

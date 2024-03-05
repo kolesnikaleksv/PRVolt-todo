@@ -1,0 +1,21 @@
+.header {
+  @apply flex bg-main-color h-16;
+
+  .container {
+    @apply flex flex-row justify-between;
+  }
+
+  &__nav {
+    @apply flex flex-row items-center;
+  }
+  &__link {
+    @apply mx-3 text-white cursor-pointer;
+  }
+  a {
+    @apply my-auto h-4/5 block;
+
+    img {
+      @apply w-full h-full;
+    }
+  }
+}
